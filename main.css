@@ -42,3 +42,27 @@ h1 span {
     transform: rotate(-360deg);
   }
 }
+
+.rapelling {
+  background-image: url('./images/rapelling.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 15em;
+  width: 10em;
+  position: absolute;
+  z-index: 50;
+  bottom: 0;
+}
+
+.left {
+  left: 0;
+  float: left;
+}
+
+.right {
+  right: 0;
+  float: right;
+  filter: FlipH;
+  transform: scaleX(-1);
+
+}
